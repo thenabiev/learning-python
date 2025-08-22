@@ -1,10 +1,10 @@
-name="Sahin"
-question="Necesen"
+# name="Sahin"
+# question="Necesen"
 # message='Salam {} {}'
 # print(message.format(name,question))
 
-message2=f'Salam {name}'
-print(message2)
+# message2=f'Salam {name}'
+# print(message2)
 
 
 ################################################################################
@@ -21,3 +21,11 @@ print(message2)
 # print(
 #     dir(test_num)
 # )
+
+def f(x, y=[]):
+    y.append(x)
+    return y
+a=f(1)
+b=f(2, [])
+c=f(3)
+print(a, b, c, a is c)
