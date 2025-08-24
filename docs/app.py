@@ -50,5 +50,5 @@ with open('movies.txt', 'r') as my_file:
     
 
 ###############################################################
-with open("data2.txt", 'x') as data2:
-    data2.write("Salam")
+# with open("data2.txt", 'x') as data2:
+#     data2.write("Salam")
